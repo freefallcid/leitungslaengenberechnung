@@ -4,7 +4,7 @@
     <PublishUrlHistory>Z:\Leitungslaengenberechnung\|publish\</PublishUrlHistory>
     <InstallUrlHistory>http://tools.dominicreich.com/Leitungslaengenberechnung/</InstallUrlHistory>
     <SupportUrlHistory>http://tmsn.at/%3ftools&amp;leitungslaengenberechnung</SupportUrlHistory>
-    <UpdateUrlHistory />
+    <UpdateUrlHistory>http://tools.dominicreich.com/Leitungslaengenberechnung/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory>https://github.com/freefallcid/leitungslaengenberechnung/issues</ErrorReportUrlHistory>
     <FallbackCulture>de-DE</FallbackCulture>

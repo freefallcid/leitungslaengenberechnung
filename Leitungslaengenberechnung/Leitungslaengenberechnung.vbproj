@@ -25,12 +25,12 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>http://tools.dominicreich.com/Leitungslaengenberechnung/</InstallUrl>
     <UpdateUrl>http://tools.dominicreich.com/Leitungslaengenberechnung/</UpdateUrl>
-    <SupportUrl>http://tmsn.at/%3ftools&amp;leitungslaengenberechnung</SupportUrl>
+    <SupportUrl>http://klamm.io</SupportUrl>
     <ErrorReportUrl>https://github.com/freefallcid/leitungslaengenberechnung/issues</ErrorReportUrl>
     <ProductName>Leitungslängenberechnung</ProductName>
     <PublisherName>Dominic Reich</PublisherName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
