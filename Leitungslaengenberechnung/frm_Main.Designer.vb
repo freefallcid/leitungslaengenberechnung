@@ -23,7 +23,7 @@ Partial Class frm_Main
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_Main))
-        Me.tab1 = New System.Windows.Forms.TabControl()
+        Me.tabAbout = New System.Windows.Forms.TabControl()
         Me.tab_page1 = New System.Windows.Forms.TabPage()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.o230_spannungsabfall = New System.Windows.Forms.TextBox()
@@ -82,23 +82,27 @@ Partial Class frm_Main
         Me.oAus_ergebnis = New System.Windows.Forms.TextBox()
         Me.iAus_schleife = New System.Windows.Forms.TextBox()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.tab1.SuspendLayout()
+        Me.tabPageAbout = New System.Windows.Forms.TabPage()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.tabAbout.SuspendLayout()
         Me.tab_page1.SuspendLayout()
         Me.tab_page2.SuspendLayout()
         Me.tab3.SuspendLayout()
+        Me.tabPageAbout.SuspendLayout()
         Me.SuspendLayout()
         '
-        'tab1
+        'tabAbout
         '
-        Me.tab1.Controls.Add(Me.tab_page1)
-        Me.tab1.Controls.Add(Me.tab_page2)
-        Me.tab1.Controls.Add(Me.tab3)
-        Me.tab1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.tab1.Location = New System.Drawing.Point(0, 0)
-        Me.tab1.Name = "tab1"
-        Me.tab1.SelectedIndex = 0
-        Me.tab1.Size = New System.Drawing.Size(475, 250)
-        Me.tab1.TabIndex = 0
+        Me.tabAbout.Controls.Add(Me.tab_page1)
+        Me.tabAbout.Controls.Add(Me.tab_page2)
+        Me.tabAbout.Controls.Add(Me.tab3)
+        Me.tabAbout.Controls.Add(Me.tabPageAbout)
+        Me.tabAbout.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.tabAbout.Location = New System.Drawing.Point(0, 0)
+        Me.tabAbout.Name = "tabAbout"
+        Me.tabAbout.SelectedIndex = 0
+        Me.tabAbout.Size = New System.Drawing.Size(475, 250)
+        Me.tabAbout.TabIndex = 0
         '
         'tab_page1
         '
@@ -689,28 +693,48 @@ Partial Class frm_Main
         Me.Label20.TabIndex = 37
         Me.Label20.Text = "Schleifenimpedanz [ Ohm ]"
         '
+        'tabPageAbout
+        '
+        Me.tabPageAbout.Controls.Add(Me.Label24)
+        Me.tabPageAbout.Location = New System.Drawing.Point(4, 22)
+        Me.tabPageAbout.Name = "tabPageAbout"
+        Me.tabPageAbout.Padding = New System.Windows.Forms.Padding(3)
+        Me.tabPageAbout.Size = New System.Drawing.Size(467, 224)
+        Me.tabPageAbout.TabIndex = 3
+        Me.tabPageAbout.Text = "About"
+        Me.tabPageAbout.UseVisualStyleBackColor = True
+        '
+        'Label24
+        '
+        Me.Label24.Location = New System.Drawing.Point(21, 27)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(205, 44)
+        Me.Label24.TabIndex = 0
+        Me.Label24.Text = "Label24"
+        '
         'frm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(475, 250)
-        Me.Controls.Add(Me.tab1)
+        Me.Controls.Add(Me.tabAbout)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "frm_Main"
         Me.Text = "Leitungslängenberechnung"
-        Me.tab1.ResumeLayout(False)
+        Me.tabAbout.ResumeLayout(False)
         Me.tab_page1.ResumeLayout(False)
         Me.tab_page1.PerformLayout()
         Me.tab_page2.ResumeLayout(False)
         Me.tab_page2.PerformLayout()
         Me.tab3.ResumeLayout(False)
         Me.tab3.PerformLayout()
+        Me.tabPageAbout.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents tab1 As System.Windows.Forms.TabControl
+    Friend WithEvents tabAbout As System.Windows.Forms.TabControl
     Friend WithEvents tab_page1 As System.Windows.Forms.TabPage
     Friend WithEvents tab_page2 As System.Windows.Forms.TabPage
     Friend WithEvents Label7 As System.Windows.Forms.Label
@@ -769,5 +793,6 @@ Partial Class frm_Main
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents oAus_ausschaltstrom As System.Windows.Forms.TextBox
     Friend WithEvents oAus_rechnung As System.Windows.Forms.Label
-
+    Friend WithEvents tabPageAbout As TabPage
+    Friend WithEvents Label24 As Label
 End Class

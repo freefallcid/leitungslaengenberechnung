@@ -57,6 +57,10 @@
     Private Sub frm_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         iAus_nennspannung.SelectedIndex = 0
         iAus_type.SelectedIndex = 0
+
+        ' tabAbout - set multiline text to label
+        Label24.Text = "Dominic Reich" & Chr(13) & "dr@klamm.io" & Chr(13) & "visit me at http://klamm.io"
+
     End Sub
 
     Private Sub btn_berechnenAus_Click(sender As Object, e As EventArgs) Handles btn_berechnenAus.Click
