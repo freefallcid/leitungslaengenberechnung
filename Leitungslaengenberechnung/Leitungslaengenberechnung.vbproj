@@ -13,7 +13,7 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>Z:\Leitungslaengenberechnung\</PublishUrl>
+    <PublishUrl>Z:\tools\Leitungslaengenberechnung\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -25,12 +25,12 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>http://tools.dominicreich.com/Leitungslaengenberechnung/</InstallUrl>
     <UpdateUrl>http://tools.dominicreich.com/Leitungslaengenberechnung/</UpdateUrl>
-    <SupportUrl>http://klamm.io</SupportUrl>
+    <SupportUrl>https://github.com/freefallcid/leitungslaengenberechnung</SupportUrl>
     <ErrorReportUrl>https://github.com/freefallcid/leitungslaengenberechnung/issues</ErrorReportUrl>
     <ProductName>Leitungslängenberechnung</ProductName>
     <PublisherName>Dominic Reich</PublisherName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -76,10 +76,11 @@
     <ApplicationIcon>cable.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>528486DB0FBE19A685C8460B46BA67E50BDFB669</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>7333803A93B717E3FFCB65C8CB363B334722D217</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Leitungslaengenberechnung_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>

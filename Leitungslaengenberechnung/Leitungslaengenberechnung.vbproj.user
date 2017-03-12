@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>Z:\Leitungslaengenberechnung\|publish\</PublishUrlHistory>
+    <PublishUrlHistory>Z:\tools\Leitungslaengenberechnung\|Z:\Leitungslaengenberechnung\|publish\</PublishUrlHistory>
     <InstallUrlHistory>http://tools.dominicreich.com/Leitungslaengenberechnung/</InstallUrlHistory>
-    <SupportUrlHistory>http://tmsn.at/%3ftools&amp;leitungslaengenberechnung</SupportUrlHistory>
+    <SupportUrlHistory>http://klamm.io|http://tmsn.at/%3ftools&amp;leitungslaengenberechnung</SupportUrlHistory>
     <UpdateUrlHistory>http://tools.dominicreich.com/Leitungslaengenberechnung/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory>https://github.com/freefallcid/leitungslaengenberechnung/issues</ErrorReportUrlHistory>

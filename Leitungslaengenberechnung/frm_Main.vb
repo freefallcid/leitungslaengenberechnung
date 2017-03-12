@@ -59,7 +59,7 @@
         iAus_type.SelectedIndex = 0
 
         ' tabAbout - set multiline text to label
-        Label24.Text = "Dominic Reich" & Chr(13) & "dr@klamm.io" & Chr(13) & "visit me at http://klamm.io"
+        'Label24.Text = "Dominic Reich" & Chr(13) & "Email: <projekte@dominicreich.com>" & Chr(13) & Chr(13) & "visit me at https://dominicreich.com"
 
     End Sub
 
@@ -72,5 +72,17 @@
             oAus_ergebnis.BackColor = Color.Red
         End If
         oAus_rechnung.Text = Math.Round(CDec(iAus_nennspannung.Text), 2) & " >= " & Math.Round(CDec(iAus_schleife.Text), 2) & " * " & Math.Round(CDec(oAus_ausschaltstrom.Text), 2) & Chr(13) & Chr(10) & Math.Round(CDec(iAus_nennspannung.Text), 2) & " >= " & Math.Round(CDec(iAus_schleife.Text) * CDec(oAus_ausschaltstrom.Text), 2)
+    End Sub
+
+    Private Sub linkAboutEmail_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkAboutEmail.LinkClicked
+        Process.Start("mailto:Dominic Reich <info@dominicreich.com>?subject=[Leitungslängenberechnung]%20Kommentar&body=Hallo%20Dominic,%20%0A%0A--%20%0AEmail%20über%20das%20Programm%20'Leitungslängenberechnung'%20erstellt")
+    End Sub
+
+    Private Sub linkAboutWebsite_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkAboutWebsite.LinkClicked
+        Process.Start("https://dominicreich.com/projekte/")
+    End Sub
+
+    Private Sub linkAboutGithub_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkAboutGithub.LinkClicked
+        Process.Start("https://github.com/freefallcid/leitungslaengenberechnung")
     End Sub
 End Class

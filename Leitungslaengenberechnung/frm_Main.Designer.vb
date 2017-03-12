@@ -83,7 +83,11 @@ Partial Class frm_Main
         Me.iAus_schleife = New System.Windows.Forms.TextBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.tabPageAbout = New System.Windows.Forms.TabPage()
-        Me.Label24 = New System.Windows.Forms.Label()
+        Me.lblAboutName = New System.Windows.Forms.Label()
+        Me.lblAboutTirol = New System.Windows.Forms.Label()
+        Me.linkAboutEmail = New System.Windows.Forms.LinkLabel()
+        Me.linkAboutWebsite = New System.Windows.Forms.LinkLabel()
+        Me.linkAboutGithub = New System.Windows.Forms.LinkLabel()
         Me.tabAbout.SuspendLayout()
         Me.tab_page1.SuspendLayout()
         Me.tab_page2.SuspendLayout()
@@ -695,7 +699,11 @@ Partial Class frm_Main
         '
         'tabPageAbout
         '
-        Me.tabPageAbout.Controls.Add(Me.Label24)
+        Me.tabPageAbout.Controls.Add(Me.linkAboutGithub)
+        Me.tabPageAbout.Controls.Add(Me.linkAboutWebsite)
+        Me.tabPageAbout.Controls.Add(Me.linkAboutEmail)
+        Me.tabPageAbout.Controls.Add(Me.lblAboutTirol)
+        Me.tabPageAbout.Controls.Add(Me.lblAboutName)
         Me.tabPageAbout.Location = New System.Drawing.Point(4, 22)
         Me.tabPageAbout.Name = "tabPageAbout"
         Me.tabPageAbout.Padding = New System.Windows.Forms.Padding(3)
@@ -704,13 +712,53 @@ Partial Class frm_Main
         Me.tabPageAbout.Text = "About"
         Me.tabPageAbout.UseVisualStyleBackColor = True
         '
-        'Label24
+        'lblAboutName
         '
-        Me.Label24.Location = New System.Drawing.Point(21, 27)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(205, 44)
-        Me.Label24.TabIndex = 0
-        Me.Label24.Text = "Label24"
+        Me.lblAboutName.AutoSize = True
+        Me.lblAboutName.Location = New System.Drawing.Point(25, 30)
+        Me.lblAboutName.Name = "lblAboutName"
+        Me.lblAboutName.Size = New System.Drawing.Size(76, 13)
+        Me.lblAboutName.TabIndex = 0
+        Me.lblAboutName.Text = "Dominic Reich"
+        '
+        'lblAboutTirol
+        '
+        Me.lblAboutTirol.AutoSize = True
+        Me.lblAboutTirol.Location = New System.Drawing.Point(25, 45)
+        Me.lblAboutTirol.Name = "lblAboutTirol"
+        Me.lblAboutTirol.Size = New System.Drawing.Size(68, 13)
+        Me.lblAboutTirol.TabIndex = 1
+        Me.lblAboutTirol.Text = "Tirol - Austria"
+        '
+        'linkAboutEmail
+        '
+        Me.linkAboutEmail.AutoSize = True
+        Me.linkAboutEmail.Location = New System.Drawing.Point(25, 60)
+        Me.linkAboutEmail.Name = "linkAboutEmail"
+        Me.linkAboutEmail.Size = New System.Drawing.Size(117, 13)
+        Me.linkAboutEmail.TabIndex = 2
+        Me.linkAboutEmail.TabStop = True
+        Me.linkAboutEmail.Text = "info@dominicreich.com"
+        '
+        'linkAboutWebsite
+        '
+        Me.linkAboutWebsite.AutoSize = True
+        Me.linkAboutWebsite.Location = New System.Drawing.Point(25, 75)
+        Me.linkAboutWebsite.Name = "linkAboutWebsite"
+        Me.linkAboutWebsite.Size = New System.Drawing.Size(125, 13)
+        Me.linkAboutWebsite.TabIndex = 3
+        Me.linkAboutWebsite.TabStop = True
+        Me.linkAboutWebsite.Text = "https://dominicreich.com"
+        '
+        'linkAboutGithub
+        '
+        Me.linkAboutGithub.AutoSize = True
+        Me.linkAboutGithub.Location = New System.Drawing.Point(25, 90)
+        Me.linkAboutGithub.Name = "linkAboutGithub"
+        Me.linkAboutGithub.Size = New System.Drawing.Size(127, 13)
+        Me.linkAboutGithub.TabIndex = 4
+        Me.linkAboutGithub.TabStop = True
+        Me.linkAboutGithub.Text = "Dieses Projekt auf Github"
         '
         'frm_Main
         '
@@ -731,6 +779,7 @@ Partial Class frm_Main
         Me.tab3.ResumeLayout(False)
         Me.tab3.PerformLayout()
         Me.tabPageAbout.ResumeLayout(False)
+        Me.tabPageAbout.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -794,5 +843,9 @@ Partial Class frm_Main
     Friend WithEvents oAus_ausschaltstrom As System.Windows.Forms.TextBox
     Friend WithEvents oAus_rechnung As System.Windows.Forms.Label
     Friend WithEvents tabPageAbout As TabPage
-    Friend WithEvents Label24 As Label
+    Friend WithEvents lblAboutName As Label
+    Friend WithEvents linkAboutWebsite As LinkLabel
+    Friend WithEvents linkAboutEmail As LinkLabel
+    Friend WithEvents lblAboutTirol As Label
+    Friend WithEvents linkAboutGithub As LinkLabel
 End Class
