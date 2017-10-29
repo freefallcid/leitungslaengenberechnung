@@ -1,2 +1,0 @@
-C:\Users\Dominic\AppData\Local\Temporary Projects\Leitungslaengenberechnung\bin\Debug\Leitungslaengenberechnung.exe.config
-C:\Users\Dominic\Documents\Visual Studio 2015\Projects\Leitungslaengenberechnung\Leitungslaengenberechnung\bin\Debug\Leitungslaengenberechnung.exe.config
